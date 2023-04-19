@@ -12,6 +12,8 @@
     background-color: var(--peachyorange);
     height: 45px;
     width: auto;
+    justify-content: space-between;
+    display: block;
 }
 .nav-list {
     display: flex;
@@ -47,5 +49,8 @@
     font-size: 26pt;
 font-weight: 400px;
 color: aliceblue;
-
+background-color: aqua;
+}
+.contact {
+    display: inline-block;
 }
