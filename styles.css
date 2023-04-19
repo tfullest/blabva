@@ -1,0 +1,26 @@
+:root {
+    --peachyorange: #ffbf7d;
+    --deeporange: #ff9f62;
+
+}
+
+* {
+    list-style: none;
+    font-family: Quicksand;
+}
+.navbar {
+    background-color: var(--peachyorange);
+    height: 45px;
+    width: auto;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+.nav-list-item {
+    font-size: 26pt;
+    font-weight: 500px;
+    letter-spacing: 0.03em;
+    line-height: 1.72;
+    
+}
