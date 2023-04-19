@@ -22,5 +22,30 @@
     font-weight: 500px;
     letter-spacing: 0.03em;
     line-height: 1.72;
-    
+
+}
+
+.hero-back{
+    position: absolute;
+    background-color: (255, 159, 98, 0.3);
+    border-radius: 45px;
+}
+
+.hero-header{
+    font-size: 52pt;
+    font-weight: 600px;
+    letter-spacing: 0.04em;
+}
+
+.hero-subheader{
+    font-size: 34pt;
+    font-weight: 500px;
+    letter-spacing: 0.03em;
+}
+
+.hero-text {
+    font-size: 26pt;
+font-weight: 400px;
+color: aliceblue;
+
 }
