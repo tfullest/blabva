@@ -1,7 +1,11 @@
 :root {
     --peachyorange: #ffbf7d;
     --deeporange: #ff9f62;
-
+    --richpurple: #982ca5;
+    --middarkblue: #2c5ba5;
+    --lightteal: #c8f6ff;
+    --lightpink: #f5c0ff;
+    --midpink: #ea7dff;
 }
 
 * {
@@ -9,13 +13,18 @@
     font-family: Quicksand;
     text-decoration: none;
 }
+a {    color: #982ca5}
 
+.header{
+    background-color: var(--lightteal);
+}
 .navbar {
     background-color: var(--peachyorange);
     height: 45px;
     width: auto;
     display: block;
-    padding-bottom: 15px;
+padding-bottom: 15px;
+z-index: -7;
 }
 .nav-list {
     display: flex;
@@ -25,23 +34,32 @@
 }
 .nav-list-item {
     font-size: 26pt;
-    font-weight: 500px;
+    font-weight: 500;
     letter-spacing: 0.03em;
     line-height: 1.72;
-    padding: 25px;
+
 
 }
+
+.nav-list-item:hover {
+    border-bottom: solid 2px var(--richpurple) ;
+    border-radius: 2px;
+    background-color: var(--lightpink);
+
+}
+
 .hero-image {
     position: relative;
-    z-index: -1;
+    z-index: -10;
 }
 .hero-back{
     position: absolute;
-    background-color: #ff9f62;
+    background-color: var(--lightpink);
+
     border-top-left-radius: 450px;
     border-bottom-left-radius: 450px;
     margin-left: 35%;
-top: 172;
+top: 180;
 
 justify-items: center;
 align-items: center;
@@ -49,9 +67,11 @@ align-items: center;
 
 .hero-header{
     font-size: 35pt;
-    font-weight: 600px;
+    font-weight: 600;
     letter-spacing: 0.04em;
     margin-left: 15%;
+    color: var(--richpurple);
+
 }
 
 .hero-subheader{
@@ -59,15 +79,107 @@ align-items: center;
     font-weight: 500px;
     letter-spacing: 0.03em;
     margin-left: 20%;
+    color: var(--richpurple);
 }
 
 .hero-text {
     font-size: 26pt;
 font-weight: 400px;
-color: aliceblue;
+color: var(--richpurple);
 display: block;
 margin-left: 10%;
 }
+.superheader{
+    display: flex;
+    justify-content: space-between;
+
+
+}
 .contact {
-    display: inline-block;
+    display: block;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 45px;
+}
+.contact:hover {
+    background-color: var(--midpink);
+    color:white;
+}
+
+.family{
+    margin-top: 75px;
+    background-color: var(--lightteal);
+    padding-top: 25px;
+    padding-bottom: 50px;;
+}
+.family-head {
+    justify-items: center;
+    text-align: center;
+    font-size: 38px;
+    color: var(--richpurple);
+}
+.family-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.family-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    display: block;
+    text-align: center;
+    border: solid 2px var(--deeporange);
+    border-radius: 4px;
+    background-color: var(--peachyorange);
+}
+
+
+.family-photo {
+    width: 250px;
+
+}
+.family-title {
+    color: var(--richpurple);
+}
+.family-text {
+    margin: 10px;
+    font-size: 20px;
+    color: var(--richpurple);
+}
+
+.footer{
+    background-color: var(--deeporange);
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.footer-left {
+    display: block;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+.footer-right {
+    display: block;
+        margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 150px;
+}
+
+.greg-div{
+    height:189px;
+    width: 250px;
+    overflow: hidden;
+margin-left: 50px
+}
+.company-name {
+    font-size: 35;
+    letter-spacing: 0.1em;
+    color: var(--middarkblue)
 }
