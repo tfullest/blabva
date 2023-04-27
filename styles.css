@@ -1,11 +1,21 @@
 :root {
-    --peachyorange: #ffbf7d;
-    --deeporange: #ff9f62;
+    /* --peachyorange: #ffbf7d;
+     */
+     --peachyorange: #FFDD99;
+    /* --deeporange: #ff9f62; */
+    --deeporange: #ffbf7d;
+    --midyellow: #FAF8B4;
+    --chillgreen:#A8E0A3;
     --richpurple: #982ca5;
     --middarkblue: #2c5ba5;
-    --lightteal: #CDFDFF;
-    --lightpink: #f5c0ff;
-    --midpink: #ea7dff;
+    --lightterteal: #f3fffe;
+    --lightteal: #E7FBF9;
+    --midteal: #D4FAF1;
+    /* --lightteal: #CDFDFF; */
+    /* --lightpink: #f5c0ff;
+     */
+    --lightpink:#fcdef9;
+     --midpink: #ea7dff;
     --lightback: #ffbf7d;
 }
 /* Global Styling */
@@ -19,7 +29,7 @@
 
 }
 body{
-    background-color: var(--lightteal);
+    background-color: var(--white);
     justify-self: center;
 
 
@@ -168,6 +178,7 @@ display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 .item_list_items {
     align-content: center;
@@ -183,7 +194,7 @@ padding: 35;
 border-radius: 300px;
 }
 .item_card:nth-child(2n){
-    background-color: var(--peachyorange);
+    background-color: var(--deeporange);
 }
 
 .item_name{
@@ -199,17 +210,20 @@ font-weight: 500;
 font-size: 28px;
 text-align: center;
 letter-spacing: 0.03em;
+    padding-bottom: 50px;
 }
 
 /* Family*/ 
 .family{
-    margin-top: 75px;
-    background-color: var(--lightteal);
-    padding-top: 25px;
+
+    background-color: var(--lightpink);
+    
     padding-bottom: 50px;;
 }
 .family-head {
-    padding-bottom: 25px;
+    background-color: var(--lightpink);
+    padding-top:50px;
+    padding-bottom: 50px;
     justify-items: center;
     text-align: center;
     font-size: 38px;
@@ -221,6 +235,7 @@ letter-spacing: 0.03em;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 25px;
+    padding-top: 50px;
 }
 
 .family-items {
@@ -229,9 +244,9 @@ letter-spacing: 0.03em;
     width: 350px;
     display: block;
     text-align: center;
-    border: solid 2px var(--deeporange);
-    border-radius: 4px;
-    background-color: var(--peachyorange);
+    /* border: solid 2px var(--deeporange); */
+    border-radius: 40px;
+    background-color: var(--lightteal);
 }
 
 
