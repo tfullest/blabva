@@ -10,17 +10,28 @@
 }
 /* Global Styling */
 * {
+    padding: 0;
+    margin: 0;
     list-style: none;
     font-family: Quicksand;
     text-decoration: none;
-    max-width: 1600px;
+
+
 }
 body{
     background-color: var(--lightteal);
     justify-self: center;
+
+
+    margin: 0 auto;
 }
 a {    color: #982ca5}
-
+.container{
+    width: 1600px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+}
 /* Superheader */
 
 
@@ -51,8 +62,8 @@ a {    color: #982ca5}
     box-shadow: 0 1px 0 rgba(0,0,0,.15), inset 0 1px 0 0 hsla(0,0%,100%,.1); */
  */}
 .contact:hover {
-    background-color: var(--midpink);
-    color:var(--lightback);
+    background-color: var(--lightpink);
+    color:var(--deeporange);
     /* background: linear-gradient(var(--lightpink),var(--midpink));
     box-shadow: 0 1px 0 rgba(0,0,0,.15), inset 0 1px 0 0 hsla(0,0%,100%,.1); */
 }
@@ -112,6 +123,8 @@ padding: 7px;
 }
 
 .hero-header{
+    padding-top: 50px;
+    padding-bottom: 25px;
     font-size: 35pt;
     font-weight: 600;
     letter-spacing: 0.04em;
@@ -121,6 +134,7 @@ padding: 7px;
 }
 
 .hero-subheader{
+    padding-bottom: 15px;
     font-size: 28pt;
     font-weight: 500px;
     letter-spacing: 0.03em;
@@ -142,6 +156,8 @@ margin-left: 10%;
     background-color: var(--lightteal);
 }
 .item_header{
+    padding-top: 25px;
+    padding-bottom: 25px;
     text-align: center;
     font-size: 30;
     color: var(--richpurple);
@@ -177,6 +193,8 @@ border-radius: 300px;
     color: var(--richpurple);
 }
 .item_text_links{
+    padding-top: 25px;
+    padding-bottom: 25px;
 font-weight: 500;
 font-size: 28px;
 text-align: center;
@@ -191,6 +209,7 @@ letter-spacing: 0.03em;
     padding-bottom: 50px;;
 }
 .family-head {
+    padding-bottom: 25px;
     justify-items: center;
     text-align: center;
     font-size: 38px;
@@ -201,6 +220,7 @@ letter-spacing: 0.03em;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 .family-items {
@@ -220,6 +240,7 @@ letter-spacing: 0.03em;
 
 }
 .family-title {
+    padding: 15px;
     color: var(--richpurple);
 }
 .family-text {
@@ -229,6 +250,7 @@ letter-spacing: 0.03em;
 }
 
 .footer{
+    padding-top: 25px;
     background-color: var(--deeporange);
     height: 350px;
     display: flex;
