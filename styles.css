@@ -350,3 +350,104 @@ line-height: 1.71;
     color:var(--richpurple);
    
 }
+
+/*Prosthetics Hero*/
+
+
+.prosthetics_hero_header{
+    padding:30px;
+    font-size: 48;
+    text-align: center;
+    display: block;
+}
+.prosthetics_hero_subheader{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.prosthetics_hero_text{
+font-size: 28;
+font-weight: 400;
+text-align: center;
+}
+
+.prosthetics_gallery_list{
+    display: flex;
+
+}
+.prosthetics_image_list_item{
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px var(--midpink);
+background-color: var(--lightpink);
+
+    
+}
+.prosthetics_images{
+    display: block;
+ object-fit: cover;
+width: 100%;
+height: 250px; 
+border-radius: 45px;;
+}
+
+/* Orthotics Header*/
+
+.orthotics_hero_header{
+    padding:30px;
+    font-size: 48;
+    text-align: center;
+    display: block;
+}
+.orthotics_hero_subheader{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.orthotics_hero_text{
+font-size: 28;
+font-weight: 400;
+text-align: center;
+}
+
+.orthotics_gallery_list{
+    display: flex;
+
+}
+.orthotics_image_list_item{
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px var(--midpink);
+background-color: var(--lightpink);
+
+    
+}
+.orthotics_images{
+    display: block;
+ object-fit: cover;
+width: 100%;
+height: 250px; 
+border-radius: 45px;;
+}
+
+/*other*/
+.holding_text{
+    font-size: 58;
+    font-weight: 900;
+}
