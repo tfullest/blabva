@@ -76,10 +76,11 @@ padding-right: 100px;
     padding: 20px;
     border-radius: 45px; 
     background-color: var(--peachyorange);
-    align-self: center;
+    align-self: center;}
     /* background: linear-gradient(var(--peachyorange),var(--deeporange));
     box-shadow: 0 1px 0 rgba(0,0,0,.15), inset 0 1px 0 0 hsla(0,0%,100%,.1); */
- */}
+ */
+
 .contact:hover {
     background-color: var(--midcornblue);
     color: white;
@@ -386,7 +387,7 @@ text-align: center;
     flex-wrap: wrap;
     margin: 15px;
     border-radius: 50px;
-    box-shadow: 1px 1px 5px var(--midpink);
+
 background-color: var(--lightpink);
 
     
@@ -433,7 +434,7 @@ text-align: center;
     flex-wrap: wrap;
     margin: 15px;
     border-radius: 50px;
-    box-shadow: 1px 1px 5px var(--midpink);
+
 background-color: var(--lightpink);
 
     
@@ -450,4 +451,46 @@ border-radius: 45px;;
 .holding_text{
     font-size: 58;
     font-weight: 900;
+}
+
+/*Insurance*/
+.insurance_section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.insurance_head{
+    font-family: helvetica;
+    font-size: 35pt;
+    letter-spacing: 0.02em;
+    background-color: var(--middarkblue);
+    color: var(--midteal);
+    font-weight: 600;
+}
+
+.ins_text{
+    font-size: 18pt;
+    color: var(--midcornblue);
+    padding: 10 130 10 130;
+    font-style: italic;
+    font-weight: 500;
+}
+.ins_list{
+    font-size: 22pt;
+line-height: 1.69;
+color: var(--middarkblue);
+background-color: var(--lightterteal);
+border-radius: 40px;
+font-weight: 500;
+}
+.ins_subhead{
+    font-weight: 500;
+padding-bottom: 10;
+}
+.not_in_network{
+    color: var(--middarkblue);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 28;
+font-style: italic;
 }
