@@ -1,0 +1,261 @@
+:root {
+    /* --peachyorange: #ffbf7d;
+     */
+     --peachyorange: #FFDD99;
+    /* --deeporange: #ff9f62; */
+    --deeporange: #ffbf7d;
+    --midyellow: #fffee4;
+    --chillgreen:#A8E0A3;
+    --richpurple: #982ca5;
+    --middarkblue: #2c5ba5;
+        --midcornblue: #61b3bc;
+    --lightterteal: #f3fffe;
+    --lightteal: #E7FBF9;
+    --midteal: #D4FAF1;
+    /* --lightteal: #CDFDFF; */
+    /* --lightpink: #f5c0ff;
+     */
+    --lightpink:#fcdef9;
+     --midpink: #ea7dff;
+    --lightback: #ffbf7d;
+}
+/* Global Styling */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Quicksand;
+    text-decoration: none;
+
+
+}
+body{
+    background-color: var(--white);
+    justify-self: center;
+    margin: 0 auto;
+
+}
+
+a {    color: #982ca5}
+.container{
+    width: 1600px;
+
+    margin: 0 auto;
+        background-color: var(--lightteal);
+    padding-left: 100px;
+padding-right: 100px;
+}
+
+
+
+/* Superheader */
+
+
+.superheader{
+    display: flex;
+    justify-content: space-between;
+}
+.company-name {
+    font-size: 53;
+    font-family: Quicksand;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    color: var(--middarkblue);
+    align-self: center;
+}
+.spanish_site{
+    font-size: 25px;
+    font-weight: 300px;
+    display: block;
+    align-self:center;
+}
+.contact {
+    display: block;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 45px; 
+    background-color: var(--peachyorange);
+    align-self: center;}
+    /* background: linear-gradient(var(--peachyorange),var(--deeporange));
+    box-shadow: 0 1px 0 rgba(0,0,0,.15), inset 0 1px 0 0 hsla(0,0%,100%,.1); */
+ */
+
+.contact:hover {
+    background-color: var(--midcornblue);
+    color: white;
+    /* background: linear-gradient(var(--lightpink),var(--midpink));
+    box-shadow: 0 1px 0 rgba(0,0,0,.15), inset 0 1px 0 0 hsla(0,0%,100%,.1); */
+}
+
+/* Header */
+
+.header{
+    background-color: var(--lightteal);
+}
+.navbar {
+    background-color: var(--peachyorange);
+    height: 45px;
+    width: auto;
+    display: block;
+padding-bottom: 15px;
+z-index: -7;
+        padding-left: 100px;
+padding-right: 100px;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+.nav-list-item {
+    font-size: 26pt;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 1.72;
+    padding: 7px;
+
+}
+
+.nav-list-item:hover {
+    /* border-bottom: solid 2px white ; */
+    border-radius: 70px;
+    background-color: var(--midcornblue);
+padding: 7px;
+color: white;
+}
+
+
+/* Footer */
+.footer{
+    padding-top: 25px;
+    background-color: var(--deeporange);
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 38px;
+    font-weight: 500;
+
+}
+.footer_subheader{
+    font-family: Quicksand;
+    color: var(--richpurple);
+    font-weight: 900;
+}
+.footer_links{
+    color:var(--richpurple);
+}
+.footer-left {
+    display: block;
+    margin-left: 50px;
+    line-height: 1.71;
+}
+.footer-right {
+    display: block;
+line-height: 1.71;
+    padding-right:50px;
+    text-align: right;
+}
+.footer-bottom{
+    background-color: var(--deeporange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+.footer_logso_item{
+    display: flex;
+
+}
+.footer_address{
+    font-family: heebo;
+    display: block;
+    margin-top: 50px;
+    color:var(--richpurple);
+   
+}
+
+
+/* Orthotics Header*/
+.orthotics_hero{
+    background-color: var(--lightterteal);
+}
+.orthotics_hero_header{
+    padding:30px;
+    font-size: 48;
+    text-align: center;
+    display: block;
+    background-color: var(--midcornblue);
+    color: var(--lightteal);
+    letter-spacing: 0.05em;
+    
+}
+.orthotics_hero_subheader{
+    background-color: var(--chillgreen);
+
+    color: var(--middarkblue);
+    padding: 20px;
+    border-top-right-radius: 42px;
+    border-bottom-right-radius: 42px ;
+    text-align: left;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+    display: inline-block;
+    
+}
+.hero_sub_div{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-right-radius: 40px;
+    background-color: #d4f0c1;
+}
+.orthotics_hero_text{
+display: inline-block;
+font-size: 28;
+text-align: center;
+font-weight: 500;
+text-align: left;
+padding: 0 20 0 20;
+color: var(--middarkblue);
+}
+.orthotics_hero_subtext{
+  color: var(--middarkblue);
+    text-align: center;
+    font-size: 25;
+}
+
+.orthotics_gallery_list{
+    display: flex;
+
+}
+.orthotics_image_list_item{
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 50px;
+
+background-color: var(--lightpink);
+}
+.orthotics_images{
+    display: block;
+ object-fit: cover;
+width: 100%;
+height: 250px; 
+border-radius: 45px;;
+}
+
+
