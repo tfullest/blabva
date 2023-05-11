@@ -6,6 +6,7 @@
     --deeporange: #ffbf7d;
     --midyellow: #fffee4;
     --chillgreen:#A8E0A3;
+    --lightgreen: #e1f7df;
     --richpurple: #982ca5;
     --middarkblue: #2c5ba5;
         --midcornblue: #61b3bc;
@@ -523,7 +524,7 @@ border-radius: 45px;;
 }
 
 .osgreen{
-    background-color: var(--midteal);
+    background-color: var(--lightgreen);
 }
 .oilblue{
     background-color: var(--midcornblue);
@@ -561,11 +562,14 @@ border-radius: 45px;;
 }
 
 .ins_text{
-    font-size: 18pt;
+    font-size: 23pt;
     color: var(--midcornblue);
     padding: 10 130 10 130;
-    font-style: italic;
-    font-weight: 500;
+    
+    font-weight: 600;
+    background-color: var(--lightgreen);
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
 }
 .ins_list{
     font-size: 22pt;
