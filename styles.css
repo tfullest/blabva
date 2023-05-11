@@ -10,6 +10,7 @@
     --richpurple: #982ca5;
     --middarkblue: #2c5ba5;
         --midcornblue: #61b3bc;
+        --deepteal: #36767d;
     --lightterteal: #f3fffe;
     --lightteal: #E7FBF9;
     --midteal: #D4FAF1;
@@ -59,10 +60,10 @@ padding-right: 100px;
 }
 .company-name {
     font-size: 53;
-    font-family: Quicksand;
+    font-family: Capriola;
     font-weight: 900;
     letter-spacing: 0.01em;
-    color: var(--middarkblue);
+    color: var(--deepteal);
     align-self: center;
 }
 .spanish_site{
@@ -70,20 +71,22 @@ padding-right: 100px;
     font-weight: 300px;
     display: block;
     align-self:center;
+    text-decoration: underline;
 }
 .contact {
     display: block;
+    color: var(--deepteal);
+    font-family: Varela Round;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 20px;
     border-radius: 45px; 
     background-color: var(--peachyorange);
     align-self: center;}
-    /* background: linear-gradient(var(--peachyorange),var(--deeporange));
-    box-shadow: 0 1px 0 rgba(0,0,0,.15), inset 0 1px 0 0 hsla(0,0%,100%,.1); */
- */
 
-.contact:hover {
+
+.contact:hover,
+.contact:focus {
     background-color: var(--midcornblue);
     color: white;
     /* background: linear-gradient(var(--lightpink),var(--midpink));
@@ -119,14 +122,17 @@ padding-right: 100px;
     letter-spacing: 0.03em;
     line-height: 1.72;
     padding: 7px;
-
+    font-family: varela Round;
+color: var(--deepteal)
 }
 
 .nav-list-item:hover {
     /* border-bottom: solid 2px white ; */
     border-radius: 70px;
     background-color: var(--midcornblue);
-padding: 7px;
+padding-top: 7px;
+padding-bottom: 9px;
+
 color: white;
 }
 /* Hero */
@@ -142,41 +148,44 @@ color: white;
 }
 .hero-back{
     position: block;
-    background-color: var(--lightpink);
+    /* background-color: var(--lightpink);
     border-top-left-radius: 450px;
-    border-bottom-left-radius: 450px;
+    border-bottom-left-radius: 450px; */
     justify-items: center;
     align-items: center;
 }
 
 .hero-header{
-    font-family: heebo;
+    font-family: Capriola;
     padding-top: 50px;
     padding-bottom: 10px;
     font-size: 35pt;
     font-weight: 600;
     letter-spacing: 0.04em;
     margin-left: 15%;
-    color: var(--middarkblue);
+    color: var(--deepteal);
 
 }
 
 .hero-subheader{
-    font-family: heebo;
+    font-family: Karla;
     padding-bottom: 15px;
     font-size: 28pt;
     font-weight: 100px;
     letter-spacing: 0.04em;
     margin-left: 20%;
-    color: var(--richpurple);
+    color: var(--deepteal);
 }
 
 .hero-text {
     font-size: 26pt;
-font-weight: 400px;
-color: var(--richpurple);
+font-weight: 300;
+font-family: varela round;
+color: var(--deepteal);
 display: block;
 margin-left: 10%;
+padding-right: 20px;
+text-align: left;
 }
 
 /* Items */
@@ -188,9 +197,11 @@ margin-left: 10%;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
+    font-family: capriola;
     font-size: 30;
-    color: var(--richpurple);
+    color: var(--lightterteal);
     letter-spacing: 0.05em;
+    background-color: var(--midcornblue);
 }
 .item_list{
 display: flex;
@@ -205,10 +216,11 @@ display: flex;
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-family: varela round;
 }
 
 .item_card{
-background-color: var(--midpink);
+background-color: var(--midpinkalt);
 padding: 10;
 border-radius: 300px;
 }
@@ -220,16 +232,24 @@ border-radius: 300px;
     font-size: 17pt;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: var(--richpurple);
+    color: var(--deepteal);
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .item_text_links{
     padding-top: 25px;
-    padding-bottom: 25px;
 font-weight: 500;
 font-size: 28px;
 text-align: center;
 letter-spacing: 0.03em;
     padding-bottom: 50px;
+    font-family: karla;
+    color: var(--deepteal);
+}
+.item_source_links{
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
 }
 
 /* Family*/ 
@@ -240,9 +260,10 @@ letter-spacing: 0.03em;
     padding-bottom: 50px;;
 }
 .family-head {
-        font-family: heebo;
-        letter-spacing: 0.05em;
+        font-family: capriola;
+        letter-spacing: 0.03em;
     background-color: var(--midcornblue);
+    
     padding-top:50px;
     padding-bottom: 50px;
     justify-items: center;
@@ -280,14 +301,16 @@ letter-spacing: 0.03em;
 }
 .family-title {
     padding: 15px;
-    color: var(--middarkblue);
+    color: var(--deepteal);
+    font-family: karla;
 font-size: 25pt;
 }
 .family-text {
     margin: 10px;
     font-size: 28px;
-    font-weight: 600;
-    color: var(--middarkblue);
+    font-weight: 300;
+    color: var(--deepteal);
+    font-family: varela round;
 }
 
 .greg-div{
@@ -300,7 +323,7 @@ margin-left: 50px
 /* Footer */
 .footer{
     padding-top: 25px;
-    background-color: var(--deeporange);
+    background-color: var(--deepteal);
     height: 350px;
     display: flex;
     flex-direction: row;
@@ -308,19 +331,31 @@ margin-left: 50px
     font-size: 38px;
     font-weight: 500;
 
+
 }
 .footer_subheader{
-    font-family: Quicksand;
-    color: var(--richpurple);
+    font-family: Capriola;
+    color: var(--lightteal);
     font-weight: 900;
+    margin-top: 30px
+}
+.footer_miniheader{
+    font-family: karla;
+    color: var(--lightteal);
+    font-weight: 900;
+    font-size: 28px;
+    display: inline;
 }
 .footer_links{
-    color:var(--richpurple);
+    color:var(--lightteal);
+    font-family: karla;
+font-size: 28px;
+
 }
 .footer-left {
     display: block;
     margin-left: 50px;
-    line-height: 1.71;
+    line-height: 1.01;
 }
 .footer-right {
     display: block;
@@ -329,10 +364,15 @@ line-height: 1.71;
     text-align: right;
 }
 .footer-bottom{
-    background-color: var(--deeporange);
+    background-color: var(--lightterteal);
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 .footer_logos{
     display: flex;
@@ -342,15 +382,16 @@ line-height: 1.71;
     padding-top: 150px;
     padding-bottom: 200px;
 }
-.footer_logso_item{
+.footer_logo_item{
     display: flex;
 
 }
 .footer_address{
-    font-family: heebo;
+    font-family: varela round;
     display: block;
     margin-top: 50px;
-    color:var(--richpurple);
+    font-size: 28px;
+    color:var(--lightteal);
    
 }
 
