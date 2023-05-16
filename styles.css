@@ -105,8 +105,8 @@ padding-right: 100px;
     display: block;
 padding-bottom: 15px;
 z-index: -7;
-        padding-left: 100px;
-padding-right: 100px;
+        padding-left: 25px;
+padding-right: 25px;
 }
 .nav-list {
     display: flex;
@@ -377,6 +377,7 @@ font-size: 28px;
 line-height: 1.71;
     padding-right:50px;
     text-align: right;
+    max-width: 400px;
 }
 .footer-bottom{
     background-color: var(--lightterteal);
