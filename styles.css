@@ -605,12 +605,61 @@ border-radius: 45px;;
 .ospurple{
     background-color: var(--lightpink);
 }
-/*other*/
-.holding_text{
-    font-size: 58;
-    font-weight: 900;
+/*Gallery*/
+.gallery_container{
+    background-image: url(assets/Stone-Falls.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    
 }
+.gallery_overlay{
 
+    background-color: #ffbe7d59;
+}
+.gallery_header_container{
+    justify-content: center;
+    display: flex;
+}
+.gallery_header{
+    font-size: 58px;
+    color: var(--deeporange);
+display: grid;
+padding: 13px, 0px, 13px, 0px;
+margin-top: 15px;
+width: 450px;
+text-align: center;
+justify-content: center;
+background-color: #ffffffc4;
+border-radius: 40px;
+
+    
+}
+.gallery_list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.gallery_card{
+    margin: 50px;
+    background-color: var(--lightback);
+border-radius: 40px;
+justify-items: center;
+box-shadow: 4px 4px 4px -4px var(--deepteal);
+
+}
+.gallery_image{
+    padding: 10px;
+    border-radius: 40px;
+}
+.gallery_image_description{
+    padding: 0px 0px 10px 10px;
+    text-align: center;
+    font-size: 24px;
+    max-width: 450px;
+    text-justify: center;
+}
 /*Insurance*/
 .insurance_section{
     text-align: center;
