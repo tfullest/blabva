@@ -35,14 +35,15 @@
 body{
     background-color: var(--white);
     justify-self: center;
-    margin: 0 auto;
-
+    margin: 0;
+height: 100%;
 }
 
 a {    color: #982ca5}
 .container{
-    width: 1600px;
-
+    
+    max-width: 1600px;
+height: auto;
     margin: 0 auto;
         background-color: var(--lightteal);
     padding-left: 100px;
@@ -146,7 +147,7 @@ color: white;
     display: flex;
     background-size: 100%, 500px;
     /* background-color: white; */
-    background-image: url(/assets/rebecca.jpg);
+    background-image: url(assets/rebecca.jpg);
     background-size: 500px;
     background-color: var(--lightpink);
    
@@ -262,17 +263,18 @@ letter-spacing: 0.03em;
     color: var(--deepteal);
 }
 .item_source_links{
+    font-size: 21px;
     text-align: center;
     color: gray;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 /* Family*/ 
 .family{
 
     background-color: var(--lightpink);
-    
-    padding-bottom: 50px;;
+    height: auto;
+    padding-bottom: 50px;
 }
 .family-head {
         font-family: capriola;
@@ -336,17 +338,18 @@ margin-left: 50px
 }
 
 /* Footer */
+
+
 .footer{
     padding-top: 25px;
     background-color: var(--deepteal);
-    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 38px;
     font-weight: 500;
-
-
+overflow: hidden;
+max-height:13.5vw;
 }
 .footer_subheader{
     font-family: Capriola;
@@ -398,7 +401,7 @@ line-height: 1.71;
     padding-top: 150px;
     padding-bottom: 200px;
 }
-.footer_logo_item{
+.footer_logos_item{
     display: flex;
 
 }
@@ -409,6 +412,11 @@ line-height: 1.71;
     font-size: 28px;
     color:var(--lightteal);
    
+}
+.boc{
+    background-color: var(--peachyorange);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /*Prosthetics Hero*/
@@ -662,8 +670,8 @@ font-style: italic;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 30px;
-
+    margin-top: 75px;
+padding-bottom: 75px;
     
 }
 .locations_ashburn{
