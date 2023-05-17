@@ -147,7 +147,7 @@ color: white;
     display: flex;
     background-size: 100%, 500px;
     /* background-color: white; */
-    background-image: url(assets/rebecca.jpg);
+    background-image: url(assets/rebeca1.jpg);
     background-size: 500px;
     background-color: var(--lightpink);
    
@@ -349,7 +349,7 @@ margin-left: 50px
     font-size: 38px;
     font-weight: 500;
 overflow: hidden;
-max-height:13.5vw;
+max-height:16vw;
 }
 .footer_subheader{
     font-family: Capriola;
@@ -517,6 +517,7 @@ color: var(--middarkblue);
 .orthotics_gallery_list{
     display: flex;
     margin-top: 30px;
+  padding-bottom: 30px;
 }
 .orthotics_image_list_item{
     display: flex;
@@ -544,10 +545,12 @@ border-radius: 45px;;
 .ortho-subsection{
     color: var(--middarkblue);
     text-align: center;
-    font-size: 25;
+    font-size: 35;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 100px;
+    padding-top: 40px;
+
 }
 .ortho-subsection1{
         color: var(--middarkblue);
@@ -747,13 +750,18 @@ border-radius: 40px;
 }
 .location_address{
     font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .locations_subtext{
     font-size: 25px;
     margin-top: 10px;
     font-weight: 100;
     max-width: 690px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
 .minimap{
     padding-top: 20px;
 }
