@@ -349,8 +349,8 @@ margin-left: 50px
     justify-content: space-between;
     font-size: 38px;
     font-weight: 500;
-overflow: hidden;
-max-height:16vw;
+
+height: 400px;
 }
 .footer_subheader{
     font-family: Capriola;
