@@ -6,6 +6,7 @@
     --deeporange: #ffbf7d;
     --midyellow: #fffee4;
     --chillgreen:#A8E0A3;
+    --midgreen: #c2e9bf;
     --lightgreen: #e1f7df;
     --richpurple: #982ca5;
     --middarkblue: #2c5ba5;
@@ -534,7 +535,8 @@ background-color: var(--lightpink);
  object-fit: cover;
 width: 100%;
 height: 250px; 
-border-radius: 45px;;
+border-radius: 45px;
+
 }
 .ortho-section{
     display: flex;
@@ -549,6 +551,7 @@ border-radius: 45px;;
     padding-right: 30px;
     border-radius: 100px;
     padding-top: 40px;
+    padding-bottom: 30px;
 
 }
 .ortho-subsection1{
@@ -557,6 +560,9 @@ border-radius: 45px;;
         font-size: 25;
         padding-left: 30px;
         padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
 }
 .orthotics_item_label{
         padding:30px;
@@ -809,14 +815,117 @@ font-weight: 500;
     text-align: center;
     font-size: 21pt;
 }
+.quetzalafo{
+    border-radius: 0;
+background-color: var(--midpink);
+color: var(--richpurple);
+}
+
+/*modal Cranial*/
+.cranial_modal_button{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--deeporange);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.cranial_modal_button:hover{
+    cursor: pointer;
+}
+.cranial_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--deeporange);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--deeporange);
+}
+.cranial_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--peachyorange);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--peachyorange);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalCranial{
+    border-radius: 0;
+background-color: var(--peachyorange);
+color: var(--deepteal);
+}
+
+
+/*modal kafo*/
+.kafo_modal_button{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--chillgreen);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.kafo_modal_button:hover{
+    cursor: pointer;
+}
+.kafo_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--chillgreen);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--chillgreen);
+}
+.kafo_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--lightgreen);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--lightgreen);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalkafo{
+    border-radius: 0;
+background-color: var(--midgreen);
+color: var(--deepteal);
+}
+
+
 .is-hidden{
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
 height: 0px;
-}
-.quetzal{
-    border-radius: 0;
-background-color: var(--midpink);
-color: var(--richpurple);
 }
