@@ -923,6 +923,107 @@ color: var(--deepteal);
 }
 
 
+/*modal smo*/
+.smo_modal_button{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--deepteal);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.smo_modal_button:hover{
+    cursor: pointer;
+}
+.smo_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--deepteal);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--deepteal);
+}
+.smo_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--lightteal);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--lightteal);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalsmo{
+    border-radius: 0;
+background-color: var(--midcornblue);
+color: var(--lightteal);
+}
+
+/*modal tlso*/
+.tlso_modal_button{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--richpurple);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.tlso_modal_button:hover{
+    cursor: pointer;
+}
+.tlso_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--richpurple);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--richpurple);
+}
+.tlso_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--lightpink);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--lightpink);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzaltlso{
+    border-radius: 0;
+background-color: var(--midpinkalt);
+color: var(--lightteal);
+}
+
+
 .is-hidden{
     visibility: hidden;
     opacity: 0;
