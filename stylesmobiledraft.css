@@ -24,7 +24,7 @@
     --lightback: #ffbf7d;
 }
 
-*:not(mobile-superheader){
+*{
 align-items: center;
 display: flex;
 flex-direction: column;
@@ -36,6 +36,7 @@ margin-right: 10px;
 text-align: center;
 background-color: var(--lightterteal);
 font-family: varela round;
+
 }
 a{
 text-decoration: none;
@@ -43,26 +44,45 @@ text-decoration: none;
 title{
     visibility: hidden;
 }
+html{padding: 0; margin: 0;}
+  
 body{
     height: fit-content;
+
 }
 .container{
     background-color: orange;
 }
-
-
 .mobile-superheader{
-    display: block;
+    display: flex;
+    flex-direction: row;
     font-family: capriola;
     padding: 10px;
     font-size: 14px;
     margin: 0;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
-background-color: var(--deeporange);
-color: white;
+    background-color: var(--deeporange);
+align-content: center;
 }
+
+.mobile-company-name{
+display: inline-block;
+    color: white;
+    
+}
+.icon{
+    position: fixed; 
+    justify-self: start;
+    flex-direction: row;
+    z-index: 1;
+    background-color: #2c5aa500;  
+    fill: white; 
+    display: block;
+    right: 40%
+}
+
 .header-logo{
     display: none;
 }
