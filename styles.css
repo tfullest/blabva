@@ -61,7 +61,8 @@ padding-right: 100px;
     justify-content: space-between;
 }
 .company-name {
-    font-size: 53;
+    /* font-size: 53; */
+    font-size:53px;
     font-family: Capriola;
     font-weight: 900;
     letter-spacing: 0.01em;
@@ -103,7 +104,6 @@ padding-right: 100px;
 .navbar {
     background-color: var(--peachyorange);
     height: 45px;
-    width: auto;
     display: block;
 padding-bottom: 15px;
 z-index: -7;
@@ -141,7 +141,7 @@ color: white;
 
 .hero-image {
     position: relative;
-    width: 450px;
+    max-width: 450px;
 }
     
 .hero{

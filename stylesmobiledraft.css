@@ -1,0 +1,81 @@
+:root {
+    /* --peachyorange: #ffbf7d;
+     */
+     --peachyorange: #FFDD99;
+    /* --deeporange: #ff9f62; */
+    --deeporange: #ffbf7d;
+    --midyellow: #fffee4;
+    --chillgreen:#A8E0A3;
+    --midgreen: #c2e9bf;
+    --lightgreen: #e1f7df;
+    --richpurple: #982ca5;
+    --middarkblue: #2c5ba5;
+        --midcornblue: #61b3bc;
+        --deepteal: #36767d;
+    --lightterteal: #f3fffe;
+    --lightteal: #E7FBF9;
+    --midteal: #D4FAF1;
+    /* --lightteal: #CDFDFF; */
+    /* --lightpink: #f5c0ff;
+     */
+    --lightpink:#fcdef9;
+     --midpink: #ea7dff;
+     --midpinkalt: #d578e8;
+    --lightback: #ffbf7d;
+}
+
+*:not(mobile-superheader){
+align-items: center;
+display: flex;
+flex-direction: column;
+list-style: none;
+max-width: 100%;
+padding: 0;
+margin-left: 10px;
+margin-right: 10px;
+text-align: center;
+background-color: var(--lightterteal);
+font-family: varela round;
+}
+a{
+text-decoration: none;
+}
+title{
+    visibility: hidden;
+}
+body{
+    height: fit-content;
+}
+.container{
+    background-color: orange;
+}
+
+
+.mobile-superheader{
+    display: block;
+    font-family: capriola;
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+background-color: var(--deeporange);
+color: white;
+}
+.header-logo{
+    display: none;
+}
+.header-logo-mobile{
+    padding-top: 50px;
+}
+
+.spanish_site{
+font-size: 18px;
+text-decoration: underline;
+
+}
+.navbar{
+    display: none;
+}
+
