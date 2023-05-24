@@ -263,11 +263,33 @@ border-radius: 300px;
 font-weight: 500;
 font-size: 28px;
 text-align: center;
+justify-content: center;
 letter-spacing: 0.03em;
     padding-bottom: 50px;
     font-family: karla;
     color: var(--deepteal);
+    display: flex;
+    flex-direction: row;
 }
+.mobile_item_text_links{
+    display: inline-flex;
+    align-self: center;
+    font-size: 28px;
+}
+.mobile_item_text_links_2{
+    display: inline-flex;
+    padding-left: 10px;
+    font-size: 28px;
+}
+.mobile_item_text_links_3{
+    margin-right: 10px;
+    display: inline-flex;
+}
+.mobile_item_text_links_4{
+    margin-left: 10px;
+    display: inline-flex;
+}
+
 .item_source_links{
     font-size: 21px;
     text-align: center;
