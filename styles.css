@@ -51,6 +51,11 @@ height: auto;
 padding-right: 100px;
 }
 
+/*Items only viewable in Mobile */
+.mobile-superheader,
+ .header-logo-mobile {
+display: none;    
+}
 
 
 /* Superheader */
