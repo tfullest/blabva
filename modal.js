@@ -1,17 +1,19 @@
+
+
 (()=>
 {
     const refs = {
         extendViewableAFO: document.querySelector("[data-modal-open-afo]"),
-       extendViewableCranial: document.querySelector("[data-modal-open-cranial"),
+       extendViewableCranial: document.querySelector("[data-modal-open-cranial]"),
        extendViewableKafo: document.querySelector("[data-modal-open-kafo]"),
         extendViewableSmo: document.querySelector("[data-modal-open-smo]"),
-extendViewableTlso: document.querySelector("[data-modal-open-tlso"),
+        extendViewableTlso: document.querySelector("[data-modal-open-tlso]"),
        modalCranial: document.querySelector("[data-modal-cranial]"),
         modalAFO: document.querySelector("[data-modal-afo]"),
-        modalKafo: document.querySelector("[data-modal-kafo"),
-        modalSmo: document.querySelector("[data-modal-smo"),
+        modalKafo: document.querySelector("[data-modal-kafo]"),
+        modalSmo: document.querySelector("[data-modal-smo]"),
         modalTlso: document.querySelector("[data-modal-tlso]"),
-
+        menufy: document.querySelector("[icon-menu]")
     
     };
 
@@ -44,5 +46,11 @@ extendViewableTlso: document.querySelector("[data-modal-open-tlso"),
         refs.modalTlso.classList.toggle("is-hidden");
         refs.extendViewableTlso.classList.toggle("quetzaltlso");
     }
+    refs.menufy.addEventListener("click", toggleMenuVis);
+    function toggleMenuVis(){
+        refs.menufy.classList.toggle("hidden");
+    }
 }
 )();
+
+

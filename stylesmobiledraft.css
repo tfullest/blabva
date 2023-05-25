@@ -55,6 +55,39 @@ body{
     display: none;
 }
 
+/* Hidden Class for Modal */
+
+
+.is-hidden{
+    visibility: hidden;
+}
+
+/* mobile-nav */
+
+.mobile-nav{
+z-index: 4;
+height: -webkit-fill-available;
+width: -webkit-fill-available;
+position: fixed;
+top: 0;
+background-color: var(--deeporange);
+}
+
+.nav-list-item-mobile{
+    position: sticky;
+    top: 50%;
+    font-family: karla;
+    font-size: 25px;
+    color: white;
+    font-weight: 600; 
+    line-height: 2.50;
+    border-bottom: 2px solid white;
+}
+.nav-list-mobile{
+    padding-top: 35px;
+}
+
+/* Mobile Content Index */
 
 .mobile-superheader{
     display: flex;
@@ -67,15 +100,13 @@ body{
     top: 0;
     width: 100%;
     background-color: var(--deeporange);
-align-content: center;
-
+    align-content: center;
 }
 
 
 .mobile-company-name{
 display: inline-block;
-    color: white;
-    
+    color: white;   
 }
 .company-name{
     display: none;
@@ -91,11 +122,12 @@ display: inline-block;
 }
 .icon-menu{right: 40%}
 .icon-mobile{
-    left: 70%;
+left: 25%;
     stroke-width: 0;
     stroke: currentColor;
     fill: white;
 }
+
 
 .header-logo-mobile{
     padding: 15px 0px 15px 0px;
@@ -106,8 +138,8 @@ display: inline-block;
 
 .spanish_site{
     display: flex;
-
-    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 font-size: 18px;
 text-decoration: underline;
 color: var(--middarkblue);
@@ -204,20 +236,70 @@ font-size: 18px;
 }
 .family-head{
     margin-top: 15px;
-    margin-bottom: 15px;
+
 }
-.family-photo{
+.family-title{
+    color: var(--lightterteal);
+    background-color: var(--deeporange);
+}
+
+ .family-photo{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border: 7px solid var(--lightpink);
+    border: 7px solid var(--lightteal);
 }
 
 .family-text{
-    max-width: 266;
+    max-width: 256;
+    padding: 5px;
     margin-top: -1;
-    background-color: var(--lightpink);
+     background-color: var(--lightteal);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     color:  var(--deepteal);
+
+}
+.family-items{
+    background-color: var(--peachyorange);
+    padding-bottom: 25px;
+
+}
+
+/* mobile footer */
+
+.footer{
+    background-color: var(--deepteal);
+    padding: 15px;
+}
+.footer_links,
+.footer_miniheader{
+display: contents;
+line-height: 1.5;
+    color: white;
+}
+.footer_miniheader{
+    font-size: 18px;
+    font-family: karla;
+    font-weight: 600;
+}
+
+.footer_address{
+    margin-top: 15px;
+    color: white;
+}
+
+.footer_logos_item{
+    width: auto;
+}
+.footer-right{
+    margin-top: 25px;
+}
+.footer_subheader{
+    font-family: capriola;
+    color: white;
+}
+
+.footer-dinos{
+    margin-top: 25px;
 
 }
