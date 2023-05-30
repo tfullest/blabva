@@ -310,3 +310,142 @@ line-height: 1.5;
     margin-top: 25px;
 
 }
+
+/*Orthotics and Prosthetics*/
+
+.orthotics_hero_header{
+    padding:30px;
+    font-size: 48;
+    text-align: center;
+    display: block;
+    background-color: var(--midcornblue);
+    color: var(--lightteal);
+    letter-spacing: 0.05em;
+    
+}
+.orthotics_hero_subheader{
+    background-color: var(--chillgreen);
+    color: var(--middarkblue);
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+    display: block;
+}
+.hero_sub_div{
+    background-color: #d4f0c1;
+}
+.orthotics_hero_text{
+display: inline-block;
+font-size: 28;
+text-align: center;
+font-weight: 500;
+padding: 0 40 0 40;
+color: var(--middarkblue);
+}
+.orthotics_hero_subtext{
+  color: var(--middarkblue);
+    text-align: center;
+    font-size: 25;
+}
+
+.orthotics_gallery_list{
+    display: flex;
+    margin-top: 30px;
+  padding-bottom: 30px;
+}
+.orthotics_image_list_item{
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 50px;
+
+background-color: var(--lightpink);
+}
+.orthotics_images{
+    display: block;
+ object-fit: cover;
+width: 100%;
+height: 250px; 
+border-radius: 45px;
+
+}
+.ortho-section{
+    display: flex;
+
+    
+}
+.ortho-subsection{
+    color: var(--middarkblue);
+    text-align: center;
+    font-size: 35;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+.ortho-subsection1{
+        color: var(--middarkblue);
+        text-align: center;
+        font-size: 25;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+}
+.orthotics_item_label{
+        padding:30px;
+    font-size: 48;
+    text-align: center;
+    display: block;
+
+    letter-spacing: 0.05em;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 75px;
+}
+.oilpink{
+    background-color: var(--midpinkalt);
+    color: var(--lightteal);
+}
+.ospink{
+    background-color: var(--lightpink);
+}
+
+.oilorange{
+    background-color: var(--deeporange);
+    color: var(--lightteal);
+}
+
+.osorange{
+    background-color: var(--midyellow);
+}
+
+.oilgreen{
+    background-color: var(--chillgreen);
+    color: var(--lightteal);
+}
+
+.osgreen{
+    background-color: var(--lightgreen);
+}
+.oilblue{
+    background-color: var(--midcornblue);
+    color: var(--lightteal);
+}
+
+.osblue{
+    background-color: var(--midteal);
+}
+.oilpurple{
+    background-color: var(--richpurple);
+    color: var(--lightteal);}
+.ospurple{
+    background-color: var(--lightpink);
+}
+
