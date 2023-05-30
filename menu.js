@@ -3,14 +3,21 @@
 {
     const refs = {
 
-menufy: document.querySelector("[js]")
-    
+menuOpen: document.querySelector(".js"),
+menuClose: document.querySelector(".jsClose"),
+menu: document.querySelector(".mobile-nav")    
 };
 
 
-refs.menufy.addEventListener("click", toggleMenuVis);
+refs.menuOpen.addEventListener("click", toggleMenuVis);
 function toggleMenuVis(){
-    refs.menufy.classList.toggle("is-hidden");
+    refs.menu.classList.remove("is-hidden");
 }
+
+refs.menuClose.addEventListener("click", closeMenu);
+function closeMenu(){
+    refs.menu.classList.add("is-hidden");
+}
+
 }
 )();
