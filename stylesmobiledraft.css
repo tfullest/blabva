@@ -188,6 +188,7 @@ background-color: var(--midcornblue);
 .item_list,
 .family-photo{
     width: auto;
+
 }
 
 .item_card{
@@ -703,4 +704,11 @@ color: var(--lightteal);
     opacity: 0;
     pointer-events: none;
 height: 0px;
+}
+
+.item_list_items,
+.item_card,
+.item_image,
+.item_list{
+    overflow-x: visible;
 }
