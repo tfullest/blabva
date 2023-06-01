@@ -33,6 +33,7 @@ max-width: 100%;
 padding: 0;
 margin: 0;
 width: 100%;
+overflow-x: hidden;
 text-align: center;
 font-family: varela round;
 }
@@ -124,7 +125,7 @@ display: inline-block;
 }
 .icon-menu{right: 40%}
 .icon-mobile{
-left: 20%;
+left: 40%;
     stroke-width: 0;
     stroke: currentColor;
     fill: white;
@@ -314,22 +315,21 @@ line-height: 1.5;
 /*Orthotics and Prosthetics*/
 
 .orthotics_hero_header{
-    padding:30px;
-    font-size: 48;
+    padding:10px;
+    font-size: 28;
     text-align: center;
     display: block;
     background-color: var(--midcornblue);
     color: var(--lightteal);
     letter-spacing: 0.05em;
-    
 }
 .orthotics_hero_subheader{
     background-color: var(--chillgreen);
     color: var(--middarkblue);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     justify-content: center;
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 600;
     display: block;
 }
@@ -338,7 +338,7 @@ line-height: 1.5;
 }
 .orthotics_hero_text{
 display: inline-block;
-font-size: 28;
+font-size: 20px;
 text-align: center;
 font-weight: 500;
 padding: 0 40 0 40;
@@ -347,7 +347,7 @@ color: var(--middarkblue);
 .orthotics_hero_subtext{
   color: var(--middarkblue);
     text-align: center;
-    font-size: 25;
+    font-size: 23;
 }
 
 .orthotics_gallery_list{
@@ -381,13 +381,11 @@ border-radius: 45px;
 .ortho-subsection{
     color: var(--middarkblue);
     text-align: center;
-    font-size: 35;
+    font-size: 20;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 100px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-
+    padding-bottom: 10px;
+width: auto;
 }
 .ortho-subsection1{
         color: var(--middarkblue);
@@ -400,14 +398,13 @@ border-radius: 45px;
 
 }
 .orthotics_item_label{
-        padding:30px;
-    font-size: 48;
+        padding:10px;
+    font-size: 22px;
     text-align: center;
     display: block;
 
     letter-spacing: 0.05em;
-    border-top-right-radius: 75px;
-    border-top-left-radius: 75px;
+
 }
 .oilpink{
     background-color: var(--midpinkalt);
@@ -449,3 +446,261 @@ border-radius: 45px;
     background-color: var(--lightpink);
 }
 
+
+/* modal */
+.afo_modal_button{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--lightpink);
+    display: flex;
+    background-color: var(--midpinkalt);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.afo_modal_button:hover{
+    cursor: pointer;
+}
+.afo_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--midpinkalt);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--midpinkalt);
+}
+.afo_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--lightpink);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--midpinkalt);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalafo{
+    border-radius: 0;
+background-color: var(--midpink);
+color: var(--richpurple);
+}
+
+/*modal Cranial*/
+.cranial_modal_button{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--deeporange);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.cranial_modal_button:hover{
+    cursor: pointer;
+}
+.cranial_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--deeporange);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--deeporange);
+}
+.cranial_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--peachyorange);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--peachyorange);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalCranial{
+    border-radius: 0;
+background-color: var(--peachyorange);
+color: var(--deepteal);
+}
+
+
+/*modal kafo*/
+.kafo_modal_button{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--chillgreen);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.kafo_modal_button:hover{
+    cursor: pointer;
+}
+.kafo_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--chillgreen);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--chillgreen);
+}
+.kafo_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--lightgreen);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--lightgreen);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalkafo{
+    border-radius: 0;
+background-color: var(--midgreen);
+color: var(--deepteal);
+}
+
+
+/*modal smo*/
+.smo_modal_button{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--deepteal);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.smo_modal_button:hover{
+    cursor: pointer;
+}
+.smo_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--deepteal);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--deepteal);
+}
+.smo_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--lightteal);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--lightteal);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalsmo{
+    border-radius: 0;
+background-color: var(--midcornblue);
+color: var(--lightteal);
+}
+
+/*modal tlso*/
+.tlso_modal_button{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--richpurple);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.tlso_modal_button:hover{
+    cursor: pointer;
+}
+.tlso_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--richpurple);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--richpurple);
+}
+.tlso_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--lightpink);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--lightpink);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzaltlso{
+    border-radius: 0;
+background-color: var(--midpinkalt);
+color: var(--lightteal);
+}
+.is-hidden{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+height: 0px;
+}
