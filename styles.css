@@ -502,7 +502,7 @@ border-radius: 45px;;
     padding:30px;
     font-size: 48;
     text-align: center;
-    display: block;
+    display: flex;
     background-color: var(--midcornblue);
     color: var(--lightteal);
     letter-spacing: 0.05em;
@@ -700,6 +700,7 @@ box-shadow: 4px 4px 4px -4px var(--deepteal);
     text-align: center;
     justify-content: center;
     align-items: center;
+
 }
 .insurance_head{
     font-family: helvetica;
@@ -713,20 +714,21 @@ box-shadow: 4px 4px 4px -4px var(--deepteal);
 .ins_text{
     font-size: 23pt;
     color: var(--midcornblue);
-    padding: 10 130 10 130;
-    
+    padding: 10;
     font-weight: 600;
     background-color: var(--lightgreen);
-    border-bottom-left-radius: 42px;
-    border-bottom-right-radius: 42px;
+    width: 550px;
 }
 .ins_list{
     font-size: 22pt;
 line-height: 1.69;
 color: var(--middarkblue);
 background-color: var(--lightterteal);
-border-radius: 40px;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
 font-weight: 500;
+padding: 10px;
+width: 550px;
 }
 .ins_subhead{
     font-weight: 500;
@@ -739,6 +741,17 @@ font-weight: 600;
 font-size: 28;
 font-style: italic;
 }
+.patient_resources_container{
+    display: flex;
+}
+.new_patient_header{
+    background-color: var(--midgreen);
+    margin-left: 15px;
+    display: flex;
+    color: white;
+    
+}
+
 
 /*Locations*/
 .locations_header{
