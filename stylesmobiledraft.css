@@ -52,12 +52,14 @@ body{
 
 /* Invisible in Mobile */
 .header-logo,
-.contact{
+.contact-desktop{
     display: none;
 }
 
 /* Hidden Class for Modal */
-
+.sneaky{
+    display: none;
+}
 
 .is-hidden{
     visibility: hidden;
@@ -311,6 +313,14 @@ line-height: 1.5;
 .footer-dinos{
     margin-top: 25px;
 
+}
+.footer_sm_icons_section{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.footer_sm_icons{
+    fill: currentColor;
 }
 
 /*Orthotics and Prosthetics*/
@@ -771,4 +781,62 @@ margin-bottom: 35px;
 
 .minimap{
     padding-top: 20px;
+}
+
+
+/*Insurance*/
+.ins_text{
+    
+    color: var(--deepteal);
+    background-color: var(--lightteal);
+    font-size: 18px;
+}
+.ins_subhead{
+    padding: 10px;
+    font-family: delius;
+    color: var(--middarkblue);
+    font-size: 18px;
+    font-weight: 600;
+}
+.insurance_companies{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: delius;
+    color: var(--deepteal);
+}
+.new_patient_header{
+    background-color: var(--chillgreen);
+    padding: 15px;
+    font-size: 30px;
+    color: var(--lightterteal);
+    font-family: delius;
+}
+.new_patients_docs_section{
+    background-color: var(--lightgreen);
+    font-family: delius;
+}
+
+.new_patient_docs_subtext{
+    color: var(--deepteal);
+    font-size: 18px;
+    font-family: delius;
+}
+.ins_payments_header{
+    background-color: var(--chillgreen);
+    padding: 15px;
+    font-size: 30px;
+    font-family: delius;
+    color: var(--lightterteal);
+    letter-spacing: 0.03em;
+}
+.payment_subsection{
+    background-color: var(--lightgreen);
+    color: var(--middarkblue);
+    font-size: 18px;
+    padding: 10px;
+}
+.form_links{
+    font-size: 18px;
+    font-family: delius;
+    font-weight: 600;
 }

@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Delius&family=Delius+Swash+Caps&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Pacifico&family=Quicksand:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Capriola&family=Delius+Swash+Caps&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -31,7 +35,7 @@
     <h1 class="company-name">Bio Prosthetic-Orthotic Lab Inc</h1>
     
     <a class="spanish_site" href="#">Espa&#241ol</a> 
-    <a class="contact" href="sms:+7037264092">Contact Us</a>
+    <a class="contact" href="locations.html">Contact Us</a>
     <a class="header-logo-mobile" href="index.html">
         <img  src="./assets/little-dinos-image.png" height="auto" width="227px"/>
         </a>
@@ -50,19 +54,20 @@
     </header>
 <main class="container main">
     <div class="patient_resources_container">
+        <div class="ins_one">
 <div class="insurance_section">
 <h2 class="orthotics_hero_header">Patient Resources</h2>
 <p class="ins_text">We accept most insurance in our area, including Medicaid and Medicare for multiple states. </br> If you have any questions, please feel free to call, email, or text. We are  happy to help!</p>
 <ul class="ins_list">
     <li class="ins_subhead">We accept the following state medicaid policies and their MCOs:</li>
-<li>
+<li class="insurance_companies">
  Virginia
     </br> Maryland
 </br> DC 
         </li>
         <li class="ins_subhead">
         We are also in network with: </li>
-    <li>
+    <li class="insurance_companies">
    Medicare
 </br>Tricare
 </br>US Family Health Plan Johns Hopkins
@@ -81,9 +86,27 @@
         </li>
 </ul>
 </div>
-<div>
+<div class="ins_two">
+<div class="ins_left">
+<div class="ins_patient_section">
     <h3 class="new_patient_header"> New Patient Documents</h3>
-    <ul></ul>
+    <ul class="new_patient_docs_section">
+        <li>
+            <p class="new_patient_docs_subtext">Click the links below to view the documents</p> 
+        </li>
+        <li><a target="_blank" href="https://drive.google.com/file/d/1bkVzKM8NX-O3xuBgJztXum7LTexlp4mO/view?usp=sharing">
+            <p class="form_links">Hipaa release form (required for all new patients)</p></a></li>
+        <li><a target="_blank" href="https://drive.google.com/file/d/14XHmWIlGpFkbEXYaxBs25XZeAh7NVucJ/view?usp=sharing">
+            <p  class="form_links">Photo Consent Form (you may opt out or withdraw consent at any time)</p></a></li>
+    </ul>
+</div>
+<div>
+    <h3 class="ins_payments_header">Payments</h3>
+    <p class="payment_subsection">Online payments are not available at this time. If you would like to make a payment, you can call our office at (703) 726-4092, or if you've received a bill in the physical mail please call the number on the form.</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </main>
 
@@ -106,11 +129,15 @@
 </div>
 
 <div class="footer-right">
-<h3 class="footer_subheader">Join Us on Social Media!</h3>
-<a class="footer_links">Insta</a>
-<a class="footer_links">Facebook</a>
-<a class="footer_links">Tiktok</a>
-<a href="index.html"><img src="./assets/little-dinos-image.png" height="auto" width="227px"/>
+    <h3 class="footer_subheader">Join Us on Social Media!</h3>
+    <div class="footer_sm_icons_section">
+    <a class="footer_links footer_sm_icons" target="_blank" href="https://www.instagram.com/biolabva/" class="icon mobile-superheader icon-mobile" ><svg  width="35px" height="35px"><use href="./assets/gallery/svg.svg#icon-instagram"></use></svg>
+    </a>
+    <a class="footer_links footer_sm_icons" target="_blank" href="https://www.facebook.com/BiolabVA" class="icon mobile-superheader icon-mobile" ><svg  width="35px" height="35px"><use href="./assets/gallery/svg.svg#icon-facebook"></use></svg>
+    </a>
+    <a class="sneaky">Tiktok</a>
+</div>
+  <a class="footer-dinos" href="index.html">  <img src="./assets/little-dinos-image.png" height="auto" width="227px"/>
 </a>
 </div>
 </div>

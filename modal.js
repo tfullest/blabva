@@ -8,12 +8,16 @@
        extendViewableKafo: document.querySelector("[data-modal-open-kafo]"),
         extendViewableSmo: document.querySelector("[data-modal-open-smo]"),
         extendViewableTlso: document.querySelector("[data-modal-open-tlso]"),
+        extendViewableShoe: document.querySelector("[data-modal-open-shoe]"),
+
        modalCranial: document.querySelector("[data-modal-cranial]"),
         modalAFO: document.querySelector("[data-modal-afo]"),
         modalKafo: document.querySelector("[data-modal-kafo]"),
         modalSmo: document.querySelector("[data-modal-smo]"),
         modalTlso: document.querySelector("[data-modal-tlso]"),
+        modalShoe: document.querySelector("[data-modal-shoe]"),
         menufy: document.querySelector("[icon-menu]")
+    
     
     };
 
@@ -46,6 +50,12 @@
         refs.modalTlso.classList.toggle("is-hidden");
         refs.extendViewableTlso.classList.toggle("quetzaltlso");
     }
+    refs.extendViewableShoe.addEventListener("click", toggleModalShoe);
+    function toggleModalShoe(){
+        refs.modalShoe.classList.toggle("is-hidden");
+        refs.extendViewableShoe.classList.toggle("quetzalshoe");
+    }
+
     refs.menufy.addEventListener("click", toggleMenuVis);
     function toggleMenuVis(){
         refs.menufy.classList.toggle("hidden");

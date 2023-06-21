@@ -28,7 +28,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    font-family: Quicksand;
+    font-family: delius;
     text-decoration: none;
 
 
@@ -68,8 +68,8 @@ display: none;
 .company-name {
     /* font-size: 53; */
     font-size:53px;
-    font-family: Capriola;
-    font-weight: 900;
+    font-family: Pacifico;
+    font-weight: 400;
     letter-spacing: 0.01em;
     color: var(--deepteal);
     align-self: center;
@@ -84,19 +84,20 @@ display: none;
 .contact {
     display: block;
     color: var(--deepteal);
-    font-family: Varela Round;
+    font-family: Delius Swash Caps;
     font-size: 36px;
     font-weight: 500;
     padding: 20px;
     border-radius: 45px; 
     background-color: var(--peachyorange);
-    align-self: center;}
+    align-self: center;
 
-
+}
 .contact:hover,
 .contact:focus {
     background-color: var(--midcornblue);
     color: white;
+
     /* background: linear-gradient(var(--lightpink),var(--midpink));
     box-shadow: 0 1px 0 rgba(0,0,0,.15), inset 0 1px 0 0 hsla(0,0%,100%,.1); */
 }
@@ -129,8 +130,9 @@ padding-right: 25px;
     letter-spacing: 0.03em;
     line-height: 1.72;
     padding: 7px;
-    font-family: varela Round;
-color: var(--deepteal)
+    font-family: Delius;
+color: var(--deepteal);
+
 }
 
 .nav-list-item:hover {
@@ -156,8 +158,6 @@ color: white;
     background-image: url(assets/rebeca1.jpg);
     background-size: 500px;
     background-color: var(--lightpink);
-   
-    
     background-repeat: no-repeat;
 padding-right: 10px;
 padding-left: 400px;
@@ -168,18 +168,16 @@ padding-bottom: 150px;
 
 .hero-back{
     position: block;
-    /* background-color: var(--lightpink);
-    border-top-left-radius: 450px;
-    border-bottom-left-radius: 450px; */
     justify-items: center;
     align-items: center;
+    
 }
 
 .hero-header{
-    font-family: Capriola;
+    font-family: Delius;
     padding-top: 50px;
     padding-bottom: 15px;
-    font-size: 21pt;
+    font-size: 24pt;
     font-weight: 400;
     letter-spacing: 0.04em;
     margin-left: 15%;
@@ -188,10 +186,10 @@ padding-bottom: 150px;
 }
 
 .hero-subheader{
-    font-family: Karla;
+    font-family: Delius;
     padding-bottom: 15px;
     font-size: 48pt;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 0.04em;
     margin-left: 15%;
     color: var(--midcornblue);
@@ -200,7 +198,7 @@ padding-bottom: 150px;
 .hero-text {
     font-size: 24pt;
 font-weight: 100;
-font-family: Varela Round;
+font-family: Delius;
 color: var(--midcornblue);
 display: block;
 margin-left: 15%;
@@ -219,8 +217,9 @@ line-height: 1.59;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
-    font-family: capriola;
-    font-size: 30;
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: 40;
     color: var(--lightterteal);
     letter-spacing: 0.05em;
     background-color: var(--midcornblue);
@@ -238,13 +237,14 @@ display: flex;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: varela round;
+    font-family: Delius;
 }
 
 .item_card{
 background-color: var(--midpinkalt);
 padding: 10;
 border-radius: 300px;
+font-family: delius;
 }
 .item_card:nth-child(2n){
     background-color: var(--deeporange);
@@ -254,9 +254,10 @@ border-radius: 300px;
     font-size: 17pt;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: var(--deepteal);
+    color: var(--midcornblue);
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: delius;
 }
 .item_text_links{
     padding-top: 25px;
@@ -266,7 +267,7 @@ text-align: center;
 justify-content: center;
 letter-spacing: 0.03em;
     padding-bottom: 50px;
-    font-family: karla;
+font-family: delius;
     color: var(--deepteal);
     display: flex;
     flex-direction: row;
@@ -275,37 +276,43 @@ letter-spacing: 0.03em;
     display: inline-flex;
     align-self: center;
     font-size: 28px;
+    font-family: delius;
 }
 .mobile_item_text_links_2{
     display: inline-flex;
     padding-left: 10px;
     font-size: 28px;
+    font-family: delius;
 }
 .mobile_item_text_links_3{
     margin-right: 10px;
     display: inline-flex;
+    font-family: delius;
 }
 .mobile_item_text_links_4{
     margin-left: 10px;
+    font-family: delius;
     display: inline-flex;
 }
 
 .item_source_links{
     font-size: 21px;
     text-align: center;
+    font-family: delius;
     color: gray;
     padding-bottom: 15px;
 }
 
 /* Family*/ 
 .family{
-
+   
     background-color: var(--lightpink);
     height: auto;
     padding-bottom: 50px;
 }
 .family-head {
-        font-family: capriola;
+        font-family: Pacifico;
+        font-weight: 400;
         letter-spacing: 0.03em;
     background-color: var(--midcornblue);
     
@@ -325,15 +332,15 @@ letter-spacing: 0.03em;
     padding-top: 50px;
     padding-left: 45px;
     padding-right: 45px;;
+   
 }
 
 .family-items {
     display: flex;
     flex-wrap: wrap;
-    width: 350px;
+    width: 400px;
     display: block;
     text-align: center;
-    /* border: solid 1px var(--midcornblue); */
     border-radius: 40px;
     background-color:var(--lightterteal);
 }
@@ -355,7 +362,7 @@ font-size: 25pt;
     font-size: 28px;
     font-weight: 300;
     color: var(--deepteal);
-    font-family: varela round;
+    font-family: Delius;
 }
 
 .greg-div{
@@ -380,13 +387,13 @@ margin-left: 50px
 height: 400px;
 }
 .footer_subheader{
-    font-family: Capriola;
+    font-family: Pacifico;
     color: var(--lightteal);
-    font-weight: 900;
+    font-weight: 400;
     margin-top: 30px
 }
 .footer_miniheader{
-    font-family: karla;
+    font-family: Karla;
     color: var(--lightteal);
     font-weight: 900;
     font-size: 28px;
@@ -394,9 +401,13 @@ height: 400px;
 }
 .footer_links{
     color:var(--lightteal);
-    font-family: karla;
+    font-family: Karla;
 font-size: 28px;
-
+fill: currentColor;
+padding-left: 15px;
+}
+.sneaky{
+    display: none;
 }
 .footer-left {
     display: block;
@@ -409,6 +420,10 @@ line-height: 1.71;
     padding-right:50px;
     text-align: right;
     max-width: 400px;
+}
+.footer-dinos{
+   
+    display: block;
 }
 .footer-bottom{
     background-color: var(--lightterteal);
@@ -434,7 +449,7 @@ line-height: 1.71;
 
 }
 .footer_address{
-    font-family: varela round;
+    font-family: Karla;
     display: block;
     margin-top: 50px;
     font-size: 28px;
@@ -502,6 +517,7 @@ border-radius: 45px;;
     padding:30px;
     font-size: 48;
     text-align: center;
+    justify-content: center;
     display: flex;
     background-color: var(--midcornblue);
     color: var(--lightteal);
@@ -696,6 +712,7 @@ box-shadow: 4px 4px 4px -4px var(--deepteal);
     text-justify: center;
 }
 /*Insurance*/
+
 .insurance_section{
     text-align: center;
     justify-content: center;
@@ -710,7 +727,12 @@ box-shadow: 4px 4px 4px -4px var(--deepteal);
     color: var(--midteal);
     font-weight: 600;
 }
+.ins_left{
 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 .ins_text{
     font-size: 23pt;
     color: var(--midcornblue);
@@ -743,16 +765,46 @@ font-style: italic;
 }
 .patient_resources_container{
     display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+.ins_one{
+    display: flex;
+}
+.ins_two{
+    display: flex;
+    margin-left: 150px
 }
 .new_patient_header{
-    background-color: var(--midgreen);
-    margin-left: 15px;
-    display: flex;
     color: white;
-    
+    padding: 30px;
+    font-size: 48;
+    text-align: center;
+    background-color: var(--chillgreen);
+    color: var(--lightteal);
+    letter-spacing: 0.05em;
 }
 
-
+.ins_payments_header{
+    background-color: var(--lightgreen);
+    font-size: 48;
+    background-color: var(--chillgreen);
+    color: var(--lightteal);
+    padding: 30px;
+}
+.new_patient_docs_section{
+    background-color: var(--lightgreen);
+    font-size: 30px;
+    color: var(--middarkblue);
+    font-weight: 400;
+    padding: 10px;
+}
+.payment_subsection{
+    background-color: var(--lightgreen);
+    color: var(--middarkblue);
+    font-size: 30px;
+    padding: 15px;
+}
 /*Locations*/
 .locations_header{
     font-size: 30px;
@@ -791,7 +843,7 @@ border-radius: 40px;
 .location_name{
     padding-top: 10px;
     font-size: 35px;
-    font-family: karla;
+    font-family: Delius;
 }
 .location_address{
     font-size: 28px;
@@ -806,10 +858,10 @@ border-radius: 40px;
     padding-left: 30px;
     padding-right: 30px;
 }
-
 .minimap{
     padding-top: 20px;
 }
+
 
 /* modal */
 .afo_modal_button{
@@ -1064,9 +1116,64 @@ color: var(--lightteal);
 }
 
 
+/*modal shoe*/
+.shoe_modal_button{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--lightteal);
+    display: flex;
+    background-color: var(--deeporange);
+    border-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.shoe_modal_button:hover{
+    cursor: pointer;
+}
+.shoe_modal{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+background-color: var(--deeporange);
+justify-content: center;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom: 8px solid var(--deeporange);
+}
+.shoe_modal_cards{
+    padding: 20px;
+    margin: 28px;
+    background-color: var(--peachyorange);
+color: var(--deepteal);
+font-weight: 500;
+    border: 4px solid;
+    border-radius: 40px;
+    border-color: var(--peachyorange);
+    justify-content: center;
+    text-align: center;
+    font-size: 21pt;
+}
+.quetzalshoe{
+    border-radius: 0;
+background-color: var(--peachyorange);
+color: var(--deepteal);
+}
 .is-hidden{
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
 height: 0px;
+}
+
+.shoe_descriptions{
+    max-width: 300px;
+    padding-top: 10px;
+    
 }
