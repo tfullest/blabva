@@ -294,7 +294,13 @@ font-family: delius;
     font-family: delius;
     display: inline-flex;
 }
-
+.photo-cred-mini{
+    font-size: 21px;
+    text-align: center;
+    font-family: delius;
+    color: var(--lightterteal);
+    padding-bottom: 15px;
+}
 .item_source_links{
     font-size: 21px;
     text-align: center;
