@@ -249,6 +249,10 @@ font-family: delius;
 .item_card:nth-child(2n){
     background-color: var(--deeporange);
 }
+.prosthetic-item-card{
+    border-radius: 180px;
+}
+
 
 .item_name{
     font-size: 17pt;
@@ -469,8 +473,10 @@ line-height: 1.71;
 }
 
 /*Prosthetics Hero*/
+.prosthetics_list{
 
-
+margin-top: 30px;
+padding-bottom: 30px;}
 .prosthetics_hero_header{
     padding:30px;
     font-size: 48;
@@ -515,7 +521,38 @@ width: 100%;
 height: 250px; 
 border-radius: 45px;;
 }
-
+.prosthetics_subsection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--midyellow);
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    justify-content: center;
+}
+.prosthetic_cards{
+    border-radius: 42px;
+display: flex;
+flex-direction: column;
+height: auto;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+background-color: var(--lightterteal);
+margin: 10px;
+}
+.prosth_card_text{
+    display: flex;
+color: var(--middarkblue);
+font-size: 26px;
+text-align: center;
+}
+.prosthetic_cards_images{
+    width: 300px;
+border-radius: 42px;
+max-height: 200px;
+overflow: hidden;
+}
 
 /* Orthotics Header*/
 
@@ -613,11 +650,11 @@ border-radius: 45px;
         padding-bottom: 30px;
 
 }
+
 .orthotics_item_label{
         padding:30px;
     font-size: 48;
     text-align: center;
-    display: block;
 
     letter-spacing: 0.05em;
     border-top-right-radius: 75px;
