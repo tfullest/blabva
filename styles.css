@@ -73,6 +73,10 @@ display: none;
     letter-spacing: 0.01em;
     color: var(--deepteal);
     align-self: center;
+
+}
+.company-name:hover{
+    cursor:default;
 }
 .spanish_site{
     font-size: 25px;
