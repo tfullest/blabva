@@ -9,8 +9,10 @@
     --midgreen: #c2e9bf;
     --lightgreen: #e1f7df;
     --richpurple: #982ca5;
-    --middarkblue: #2c5ba5;
-        --midcornblue: #61b3bc;
+    --middarkblue: #30585A;
+    /* --middarkblue: #2c5ba5; */
+        /* --midcornblue: #61b3bc; */
+        --midcornblue: #30585A;
         --deepteal: #36767d;
     --lightterteal: #f3fffe;
     --lightteal: #E7FBF9;
@@ -22,6 +24,7 @@
      --midpink: #ea7dff;
      --midpinkalt: #d578e8;
     --lightback: #ffbf7d;
+    --creditgrey:#6D6F6D;
 }
 /* Global Styling */
 * {
@@ -254,9 +257,11 @@ font-family: delius;
     background-color: var(--deeporange);
 }
 .prosthetic-item-card{
-    border-radius: 180px;
+    border-radius: 200px;
 }
-
+.item_image{
+    padding: 7px;
+}
 
 .item_name{
     font-size: 17pt;
@@ -313,7 +318,7 @@ font-family: delius;
     font-size: 21px;
     text-align: center;
     font-family: delius;
-    color: gray;
+    color: var(--creditgrey);
     padding-bottom: 15px;
 }
 
@@ -592,7 +597,7 @@ overflow: hidden;
 }
 .orthotics_hero_text{
 display: inline-block;
-font-size: 28;
+font-size: 28px;
 text-align: center;
 font-weight: 500;
 text-align: left;
@@ -657,9 +662,9 @@ border-radius: 45px;
 
 .orthotics_item_label{
         padding:30px;
-    font-size: 48;
+    font-size: 48px;
     text-align: center;
-
+color: var(--midcornblue);
     letter-spacing: 0.05em;
     border-top-right-radius: 75px;
     border-top-left-radius: 75px;
@@ -674,7 +679,7 @@ border-radius: 45px;
 
 .oilorange{
     background-color: var(--deeporange);
-    color: var(--lightteal);
+    color: var(--midcornblue);
 }
 
 .osorange{
