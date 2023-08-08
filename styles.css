@@ -8,7 +8,7 @@
     --chillgreen:#A8E0A3;
     --midgreen: #c2e9bf;
     --lightgreen: #e1f7df;
-    --richpurple: #982ca5;
+    --richpurple: #8A2895;
     --middarkblue: #30585A;
     /* --middarkblue: #2c5ba5; */
         /* --midcornblue: #61b3bc; */
@@ -21,8 +21,10 @@
     /* --lightpink: #f5c0ff;
      */
     --lightpink:#fcdef9;
-     --midpink: #ea7dff;
-     --midpinkalt: #d578e8;
+     /* --midpink: #ea7dff; */
+     --midpink: #F2BBE5;
+     /* --midpinkalt: #d578e8; */
+     --midpinkalt: #F2BBE5;
     --lightback: #ffbf7d;
     --creditgrey:#6D6F6D;
 }
@@ -311,8 +313,11 @@ font-family: delius;
     font-size: 21px;
     text-align: center;
     font-family: delius;
-    color: var(--lightterteal);
+    color: var(--midcornblue);
     padding-bottom: 15px;
+}
+.photo-cred-mini-alt{
+    color: var(--lightterteal);
 }
 .item_source_links{
     font-size: 21px;
@@ -567,7 +572,7 @@ overflow: hidden;
 
 .orthotics_hero_header{
     padding:30px;
-    font-size: 48;
+    font-size: 48px;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -607,7 +612,7 @@ color: var(--middarkblue);
 .orthotics_hero_subtext{
   color: var(--middarkblue);
     text-align: center;
-    font-size: 25;
+    font-size: 25px;
 }
 
 .orthotics_gallery_list{
@@ -671,7 +676,7 @@ color: var(--midcornblue);
 }
 .oilpink{
     background-color: var(--midpinkalt);
-    color: var(--lightteal);
+    color: var(--midcornblue);
 }
 .ospink{
     background-color: var(--lightpink);
@@ -688,7 +693,7 @@ color: var(--midcornblue);
 
 .oilgreen{
     background-color: var(--chillgreen);
-    color: var(--lightteal);
+    color: var(--midcornblue);
 }
 
 .osgreen{
@@ -828,20 +833,19 @@ justify-content: center;
     margin-left: 150px
 }
 .new_patient_header{
-    color: white;
+    color: var(--midcornblue);
     padding: 30px;
-    font-size: 48;
+    font-size: 38px;
     text-align: center;
     background-color: var(--chillgreen);
-    color: var(--lightteal);
     letter-spacing: 0.05em;
 }
 
 .ins_payments_header{
-    background-color: var(--lightgreen);
-    font-size: 48;
+
+    font-size: 38px;
     background-color: var(--chillgreen);
-    color: var(--lightteal);
+    color: var(--midcornblue);
     padding: 30px;
 }
 .new_patient_docs_section{
@@ -919,7 +923,7 @@ border-radius: 40px;
 .afo_modal_button{
     font-size: 36px;
     font-weight: 600;
-    color: var(--lightpink);
+    color: var(--richpurple);
     display: flex;
     background-color: var(--midpinkalt);
     border-style: none;
@@ -969,7 +973,7 @@ color: var(--richpurple);
 .cranial_modal_button{
     font-size: 36px;
     font-weight: 600;
-    color: var(--lightteal);
+    color: var(--midcornblue);
     display: flex;
     background-color: var(--deeporange);
     border-style: none;
@@ -1020,7 +1024,7 @@ color: var(--deepteal);
 .kafo_modal_button{
     font-size: 36px;
     font-weight: 600;
-    color: var(--lightteal);
+    color: var(--midcornblue);
     display: flex;
     background-color: var(--chillgreen);
     border-style: none;
@@ -1172,7 +1176,7 @@ color: var(--lightteal);
 .shoe_modal_button{
     font-size: 36px;
     font-weight: 600;
-    color: var(--lightteal);
+    color: var(--midcornblue);
     display: flex;
     background-color: var(--deeporange);
     border-style: none;
