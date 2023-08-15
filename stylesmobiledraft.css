@@ -1,27 +1,22 @@
 :root {
-    /* --peachyorange: #ffbf7d;
-     */
-     --peachyorange: #FFDD99;
-    /* --deeporange: #ff9f62; */
+    --peachyorange: #FFDD99;
     --deeporange: #ffbf7d;
     --midyellow: #fffee4;
     --chillgreen:#A8E0A3;
     --midgreen: #c2e9bf;
     --lightgreen: #e1f7df;
-    --richpurple: #982ca5;
-    --middarkblue: #2c5ba5;
-        --midcornblue: #61b3bc;
+    --richpurple: #8A2895;
+    --middarkblue: #30585A;
+        --midcornblue: #30585A;
         --deepteal: #36767d;
     --lightterteal: #f3fffe;
     --lightteal: #E7FBF9;
     --midteal: #D4FAF1;
-    /* --lightteal: #CDFDFF; */
-    /* --lightpink: #f5c0ff;
-     */
     --lightpink:#fcdef9;
-     --midpink: #ea7dff;
-     --midpinkalt: #d578e8;
+     --midpink: #F2BBE5;
+     --midpinkalt: #F2BBE5;
     --lightback: #ffbf7d;
+    --creditgrey:#6D6F6D;
 }
 
 *{
@@ -413,13 +408,12 @@ width: auto;
     font-size: 22px;
     text-align: center;
     display: block;
-
     letter-spacing: 0.05em;
 
 }
 .oilpink{
     background-color: var(--midpinkalt);
-    color: var(--lightteal);
+    color: var(--midcornblue);
 }
 .ospink{
     background-color: var(--lightpink);
@@ -427,7 +421,7 @@ width: auto;
 
 .oilorange{
     background-color: var(--deeporange);
-    color: var(--lightteal);
+    color: var(--midcornblue);
 }
 
 .osorange{
@@ -436,7 +430,7 @@ width: auto;
 
 .oilgreen{
     background-color: var(--chillgreen);
-    color: var(--lightteal);
+    color: var(--midcornblue);
 }
 
 .osgreen{
@@ -462,7 +456,7 @@ width: auto;
 .afo_modal_button{
     font-size: 16px;
     font-weight: 600;
-    color: var(--lightpink);
+    color: var(--richpurple);
     display: flex;
     background-color: var(--midpinkalt);
     border-style: none;
@@ -512,7 +506,7 @@ color: var(--richpurple);
 .cranial_modal_button{
     font-size: 16px;
     font-weight: 600;
-    color: var(--lightteal);
+    color: var(--midcornblue);
     display: flex;
     background-color: var(--deeporange);
     border-style: none;
@@ -563,7 +557,7 @@ color: var(--deepteal);
 .kafo_modal_button{
     font-size: 16px;
     font-weight: 600;
-    color: var(--lightteal);
+    color: var(--midcornblue);
     display: flex;
     background-color: var(--chillgreen);
     border-style: none;
