@@ -200,6 +200,15 @@ padding-bottom: 150px;
     margin-left: 15%;
     color: var(--midcornblue);
 }
+.hero-subheader-2{
+    font-family: Delius;
+    padding-bottom: 15px;
+    font-size: 38pt;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin-left: 15%;
+    color: var(--midcornblue);
+}
 
 .hero-text {
     font-size: 24pt;
