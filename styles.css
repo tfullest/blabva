@@ -575,9 +575,9 @@ font-size: 26px;
 text-align: center;
 }
 .prosthetic_cards_images{
-    width: 300px;
+    width: 450px;
 border-radius: 42px;
-max-height: 200px;
+max-height: 300px;
 overflow: hidden;
 }
 
@@ -764,15 +764,17 @@ border-radius: 40px;
 }
 .gallery_card{
     margin: 50px;
-    background-color: var(--lightback);
-border-radius: 40px;
-justify-items: center;
-box-shadow: 4px 4px 4px -4px var(--deepteal);
+    justify-items: center;
+
 
 }
 .gallery_image{
     padding: 10px;
     border-radius: 40px;
+    background-color: var(--lightback);
+    border-radius: 40px;
+    
+    box-shadow: 4px 4px 4px -4px var(--deepteal);
 }
 .gallery_image_description{
     padding: 0px 0px 10px 10px;
@@ -927,8 +929,14 @@ border-radius: 40px;
     padding-left: 30px;
     padding-right: 30px;
 }
+.minimap-hug{
+    display: flex;
+    
+}
 .minimap{
     padding-top: 20px;
+display: flex;
+justify-self: baseline;
 }
 
 
