@@ -295,7 +295,9 @@ line-height: 1.5;
     margin-top: 15px;
     color: white;
 }
-
+.footer_logos{
+    display: flex;
+}
 .footer_logos_item{
     width: auto;
 }
@@ -844,4 +846,9 @@ margin-bottom: 35px;
     font-size: 18px;
     font-family: delius;
     font-weight: 600;
+}
+.boc{
+display: flex;
+align-items: center;
+    max-width: 150px;
 }
