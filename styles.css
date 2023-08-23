@@ -321,11 +321,15 @@ font-family: delius;
     font-family: delius;
     color: var(--midcornblue);
     padding-bottom: 15px;
+    width: 100%;
 }
 .photo-cred-mini-alt{
     color: var(--lightterteal);
     text-align: center;
+    font-family: delius;
     font-size: 21px;
+    padding-bottom: 15px;
+    width: 100%;
 }
 .item_source_links{
     font-size: 21px;
