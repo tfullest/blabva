@@ -18,6 +18,7 @@
      --midpinkalt: #F2BBE5;
     --lightback: #ffbf7d;
     --creditgrey:#6D6F6D;
+    --posterblue:#EEF7FF;
 }
 /* Global Styling */
 * {
@@ -884,6 +885,15 @@ justify-content: center;
     font-size: 30px;
     padding: 15px;
 }
+
+.financial_section{
+    background-color: var(--posterblue);
+}
+.infograph_eng{
+    border-top-left-radius: 47px;
+    border-top-right-radius: 47px;
+}
+
 /*Locations*/
 .locations_header{
     font-size: 30px;
