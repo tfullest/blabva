@@ -19,6 +19,8 @@
     --lightback: #ffbf7d;
     --creditgrey:#6D6F6D;
     --posterblue:#EEF7FF;
+    --posterdeepblue: #061A60;
+    --posterperry: #BCBEFA;
 }
 /* Global Styling */
 * {
@@ -889,9 +891,20 @@ justify-content: center;
 .financial_section{
     background-color: var(--posterblue);
 }
+.process_hug{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
 .infograph_eng{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flexbox;
     border-top-left-radius: 47px;
     border-top-right-radius: 47px;
+    border-bottom-left-radius: 47px;
+    border-bottom-right-radius:47px;
+
 }
 
 /*Locations*/
