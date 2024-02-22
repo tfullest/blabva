@@ -898,15 +898,18 @@ justify-content: center;
 
 .financial_section{
     background-color: var(--posterblue);
+    
 }
 .process_hug{
     display: flex;
     justify-content: space-evenly;
+    font-family: heebo;
    
 }
 .process_policy_everyone{
     background-color: var(--posterdeepblue);
     justify-content: space-evenly;
+    font-family: heebo;
 }
 .process_policy_overview{
     background-color: var(--posterblue);
@@ -916,11 +919,12 @@ justify-content: center;
     margin-right: 30px;
     padding: 10px 15px 10px 15px;
     border-radius: 47px;
-    margin-top: 15px
-
+    margin-top: 15px;
+    
 }
 .process_policy_overview_text{
   text-align: center;
+  font-family: heebo;
 }
 .process_title{
   background-color: var(--posterdeepblue);
@@ -929,15 +933,17 @@ justify-content: center;
     color: var(--posterdeepblue);
     font-size: 45px;
     text-align: center;
+    font-family: heebo;
 }
 .process_title_text{
-    font-family: delius;
+   
     background-color: var(--posterperry);
     border-radius: 43px;
-    
+    font-family: delius;
 }
 .process_hug_2{
     display: flex;
+    font-family: heebo;
 }
 .process_policy_non{
     background-color: var(--posterorangelight);
@@ -945,6 +951,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     margin: 15px;
+    font-family: heebo;
 }
 .process_policy_non_title{
     background-color: var(--posteryellow);
@@ -952,10 +959,12 @@ justify-content: center;
     border-radius: 43px;
     font-size: 43px;
     padding: 5px;
+    font-family: heebo;
 }
 .process_policy_non_text{
     color: var(--posterdeepblue);
     font-size: 27px;
+    font-family: heebo;
    
 }
 .process_policy_cov{
@@ -964,9 +973,11 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     margin: 15px;
+    font-family: heebo;
 }
 .process_policy_cov_table{
     border-radius: 43px;
+    font-family: heebo;
 }
 .infograph_eng{
     margin-top: 35px;
@@ -989,12 +1000,14 @@ justify-content: center;
     flex-direction: column;
     border-radius: 43px;
     width: 3700px;
+    font-family: heebo;
 }
 .process_insurance_b{
     display: flex;
     background-color: var(--midgreen);
     flex-direction: column;
     border-radius: 43px;
+    font-family: heebo;
 }
 .process_insurance_c{
     display: flex;
@@ -1002,10 +1015,15 @@ justify-content: center;
     flex-direction: column;
     border-radius: 43px;
     margin-top: 15px;
+    font-family: heebo;
 }
 .process_insurance_documents{
     font-size: 33px;
     color: var(--posterdeepblue);
+    font-family: heebo;
+}
+.process_insurance_documents :nth-child(1){
+    font-family: heebo;
 }
 .process_insurance_title{
     background-color: var(--postergreen);
@@ -1015,6 +1033,7 @@ justify-content: center;
     border-radius: 43px;
     padding-left: 30px;
     padding-right: 30px;
+    font-family: heebo;
 }
 .process_insurance_text{
     color: var(--posterdeepblue);
@@ -1022,6 +1041,7 @@ justify-content: center;
     text-align: center;
  background-color: var(--midgreen);
  padding: 15px;
+ font-family: heebo;
 }
 .process_insurance_list{
     font-size: 28px;
@@ -1030,6 +1050,10 @@ justify-content: center;
     padding-top: 15px;
     background-color: var(--posterlightgreen);
     color: var(--posterdeepblue);
+    font-family: heebo;
+}
+.process_insurance_list *{
+    font-family: heebo;
 }
 
 .process_column{
