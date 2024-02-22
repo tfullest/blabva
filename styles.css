@@ -608,9 +608,9 @@ overflow: hidden;
     display: flex;
     background-color: var(--midcornblue);
     color: var(--lightteal);
-    letter-spacing: 0.05em;
-    
+    letter-spacing: 0.05em;        
 }
+
 .orthotics_hero_subheader{
     background-color: var(--chillgreen);
     color: var(--middarkblue);
@@ -894,6 +894,8 @@ justify-content: center;
     padding: 15px;
 }
 
+/*Process_Policy*/
+
 .financial_section{
     background-color: var(--posterblue);
 }
@@ -914,6 +916,7 @@ justify-content: center;
     margin-right: 30px;
     padding: 10px 15px 10px 15px;
     border-radius: 47px;
+    margin-top: 15px
 
 }
 .process_policy_overview_text{
@@ -973,6 +976,64 @@ justify-content: center;
     border-top-right-radius: 47px;
     border-bottom-left-radius: 47px;
     border-bottom-right-radius:47px;
+}
+/* Patient Resources */
+.process_insurance_hug{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.process_insurance{
+    display: flex;
+    background-color: var(--midgreen);
+    flex-direction: column;
+    border-radius: 43px;
+    width: 3700px;
+}
+.process_insurance_b{
+    display: flex;
+    background-color: var(--midgreen);
+    flex-direction: column;
+    border-radius: 43px;
+}
+.process_insurance_c{
+    display: flex;
+    background-color: var(--posterlightgreen);
+    flex-direction: column;
+    border-radius: 43px;
+    margin-top: 15px;
+}
+.process_insurance_documents{
+    font-size: 33px;
+    color: var(--posterdeepblue);
+}
+.process_insurance_title{
+    background-color: var(--postergreen);
+    color: var(--posterlightgreen);
+    font-size: 43px;
+    text-align: center;
+    border-radius: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.process_insurance_text{
+    color: var(--posterdeepblue);
+    font-size: 33px;
+    text-align: center;
+ background-color: var(--midgreen);
+ padding: 15px;
+}
+.process_insurance_list{
+    font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    background-color: var(--posterlightgreen);
+    color: var(--posterdeepblue);
+}
+
+.process_column{
+    margin-left: 15px;
 }
 
 /*Locations*/
