@@ -21,6 +21,12 @@
     --posterblue:#EEF7FF;
     --posterdeepblue: #061A60;
     --posterperry: #BCBEFA;
+    --posterorangelight: #FFDBC4;
+    --posterorange: #BD5756;
+    --posteryellow: #FFFDE3;
+    --postergreen: #6E8E8E;
+    --posterlightgreen: #E0FFDE;
+
 }
 /* Global Styling */
 * {
@@ -896,6 +902,69 @@ justify-content: center;
     justify-content: space-evenly;
    
 }
+.process_policy_everyone{
+    background-color: var(--posterdeepblue);
+    justify-content: space-evenly;
+}
+.process_policy_overview{
+    background-color: var(--posterblue);
+    color: var(--posterdeepblue);
+    font-size: 29px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 47px;
+
+}
+.process_policy_overview_text{
+  text-align: center;
+}
+.process_title{
+  background-color: var(--posterdeepblue);
+  border-top-left-radius: 43px;
+  border-top-right-radius: 43px;
+    color: var(--posterdeepblue);
+    font-size: 45px;
+    text-align: center;
+}
+.process_title_text{
+    font-family: delius;
+    background-color: var(--posterperry);
+    border-radius: 43px;
+    
+}
+.process_hug_2{
+    display: flex;
+}
+.process_policy_non{
+    background-color: var(--posterorangelight);
+    border-radius: 43px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.process_policy_non_title{
+    background-color: var(--posteryellow);
+    color: var(--posterorange);
+    border-radius: 43px;
+    font-size: 43px;
+    padding: 5px;
+}
+.process_policy_non_text{
+    color: var(--posterdeepblue);
+    font-size: 27px;
+   
+}
+.process_policy_cov{
+    background-color: var(--posterlightgreen);
+    border-radius: 43px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.process_policy_cov_table{
+    border-radius: 43px;
+}
 .infograph_eng{
     margin-top: 35px;
     margin-bottom: 35px;
@@ -904,7 +973,6 @@ justify-content: center;
     border-top-right-radius: 47px;
     border-bottom-left-radius: 47px;
     border-bottom-right-radius:47px;
-
 }
 
 /*Locations*/
