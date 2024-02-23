@@ -993,13 +993,15 @@ justify-content: center;
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
+    flex-direction: column;
+    
 }
 .process_insurance{
     display: flex;
     background-color: var(--midgreen);
     flex-direction: column;
     border-radius: 43px;
-    width: 3700px;
+    margin-bottom: 15px;
     font-family: heebo;
 }
 .process_insurance_b{
